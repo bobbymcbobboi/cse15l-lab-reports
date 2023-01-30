@@ -39,6 +39,7 @@ class StringServer {
 
 Here are the screenshots of using the string server:
 ![Image](labReport2Images/test1.png)
+
 In this screenshot, the method "handleRequest" is called. it takes a URI type
 argument that contains the url that was called on the server, in this case "
 localhost:4001/add-message?s=test".
@@ -47,6 +48,7 @@ a string value "soFar" that stores the value of the string to display so far.
 In this request, "test\n" was appended to soFar, which was an empty string.
 
 ![Image](labReport2Images/test2.png)
+
 In this screenshot, "handleRequest" was called again. It still takes a URI type
 argument that contains the url that was called on the server. It is the same as the
 last request, but "s=test" is replaced with "s=test1". soFar is still in
@@ -67,6 +69,8 @@ contribute to
 soFar getting set to the new value.
 
 ## Part 2
+
+I chose the linked list bug.
 
 Failure inducing input:
 
@@ -135,4 +139,4 @@ After fixing the bug, both tests ran successfully.
 In lab 3, I learned about how to pass in a function to a java method. At first,
 I just defined a lambda function with arrow syntax (() -> {}), but I also figured out
 how to construct an anonymous class to implement the interface and pass in a
-function.
+function. I prefer using the lambda method, as it is more concise.
