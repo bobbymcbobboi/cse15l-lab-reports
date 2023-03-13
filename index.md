@@ -4,7 +4,7 @@ hello world
 
 > this is blockquote
 
-*three things I enjoy*
+*Three things I enjoy*
 1. Food
 2. Sleep
 3. Games
